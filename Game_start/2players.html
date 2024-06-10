@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html id="id">
+    <head>
+        <title>The Great Number Search</title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <div id="lose1" class="lose"><img class="dead" src="../images/dead.png"></div>
+    <div id="lose2" class="lose"><img class="dead" src="../images/dead.png"></div>
+    <div id="lose3" class="lose"><img class="dead" src="../images/dead.png"></div>
+    <div id="lose4" class="lose"><img class="dead" src="../images/dead.png"></div>
+    <div id="lose5" class="lose"><img class="dead" src="../images/dead.png"></div>
+    <div id="tour_time">10</div>
+    <div id="Q_my"><img src="../images/light-bulb.png"> <img src="../images/light-bulb.png"> <img src="../images/light-bulb.png"></div>
+    <body>
+        <div id="decoration"><img class="dc" src="../images/pawn.png">&nbsp;&nbsp;&nbsp;<img class="dc" src="../images/crown.png">&nbsp;&nbsp;&nbsp;<img class="dc" src="../images/pawn.png"></div>
+        <div id="start">
+            <button id="Awesome" data-text="Awesome" class="button">
+            <span class="actual-text">&nbsp;Start&nbsp;</span>
+            <span class="hover-text" aria-hidden="true">&nbsp;start&nbsp;</span>
+        </button>
+    </div>
+    <div id="opponent">
+        <p id="time_oppenent" class="time">60</p>
+        <p class="Q">About your opponent</p>
+        <p class="text">As player <input id="player_said_p" type="text">, I am aware that player <input id="player_had_p" type="text"> holds the numerical value of <input id="value_p" type="text">.</p>
+        <button id="opponent_skip" class="buttone" style="left: -30%;">Skip</button> <button id="opponent_send" class="buttone" style="right: -30%;">Send</button>
+    </div>
+    <div id="yourself">
+        <p id="time_yourself" class="time">60</p>
+        <p class="Q">About yourself</p>
+        <p class="text">As player <input id="player_said_y" type="text">,  I possess the numerical value of  <input id="value_y" type="text">.</p>
+        <button id="yourself_skip" class="buttone" style="left: -30%;">Skip</button> <button id="yourself_send" class="buttone" style="right: -30%;">Send</button>
+    </div>
+    <div id="nb_say"><input id="input_say" type="text" placeholder=" + or - Number"><br>
+    <button class="buttone" id="nb_say_skip" style="left: -20%;top:50%;width: 20%;">Skip</button> <button id="nb_say_select" class="buttone" style="right: -20%;top:50%;width: 20%;">Select</button>
+    </div>
+    <div id="winner">
+        <p class="time">Winner</p>
+        <p id="winner_name" class="Q">Player 1</p>
+        <button onclick="window.location='../index.html'" class="buttone">Replay</button>
+    </div>
+        <div id="numbers">
+            <p class="number" id="cop"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+            <p class="number"></p>
+        </div>
+        <div id="player1" class="player"><p id="player1p" class="playerp">&#128420;<br><img src="../images/lost-items.png"> <img src="../images/lost-items.png"> <img src="../images/lost-items.png"></p><p class="name">Player 1</p></div>
+        <div id="player2" class="player"><p id="player2p" class="playerp">&#128420;<br><img src="../images/lost-items.png"> <img src="../images/lost-items.png"> <img src="../images/lost-items.png"></p><p class="name">Player 2</p></div>
+        <div id="player3" class="player"><p id="player3p" class="playerp">&#128420;<br><img src="../images/lost-items.png"> <img src="../images/lost-items.png"> <img src="../images/lost-items.png"></p><p class="name">Player 3</p></div>
+        <div id="player4" class="player"><p id="player4p" class="playerp">&#128420;<br><img src="../images/lost-items.png"> <img src="../images/lost-items.png"> <img src="../images/lost-items.png"></p><p class="name">Player 4</p></div>
+        <div id="player5" class="player"><p id="player5p" class="playerp">&#128420;<br><img src="../images/lost-items.png"> <img src="../images/lost-items.png"> <img src="../images/lost-items.png"></p><p class="name">Player 5</p></div>
+    </body>
+    <script src="js.js"></script>
+</html>
